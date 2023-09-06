@@ -1,3 +1,5 @@
+/* Custom Gallery Style */
+
 img{
 	max-width: 100%;
 }
@@ -15,3 +17,10 @@ img{
 #gallery-modal .modal-img{
 	width: 100%;
 }
+
+/* Custom Card Image Style */
+@media only screen and (min-width: 768px) {
+	.custom-card-image-style {
+	  width: 50%;
+	}
+  }
