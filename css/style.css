@@ -1,10 +1,15 @@
 /* Custom Gallery Style */
 
+:root {
+	--gallery-background-color: #dbddf1;
+	--gallery-background-color-dark: #1a1a1d;
+}
+
 img{
 	max-width: 100%;
 }
 .gallery{
-	background-color: #dbddf1;
+	background-color: var(--gallery-background-color-dark);
 	padding: 80px 0;
 }
 .gallery img{
